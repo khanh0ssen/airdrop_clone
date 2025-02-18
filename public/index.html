@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirDrop Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Web AirDrop</h1>
+    <button id="startShare">Start Sharing</button>
+    <input type="file" id="fileInput" style="display: none;">
+    <div id="fileInfo"></div>
+    <button id="sendFile" style="display: none;">Send File</button>
+    <div id="peerList"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
